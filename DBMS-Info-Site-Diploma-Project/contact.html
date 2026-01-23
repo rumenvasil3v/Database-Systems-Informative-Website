@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - DBMS Information Hub</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>DBMS<span>Hub</span></h1>
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Начало</a></li>
+                <li><a href="relational.html">Релационни БД</a></li>
+                <li><a href="nosql.html">NoSQL БД</a></li>
+                <li><a href="about.html">За мен</a></li>
+                <li><a href="contact.html" class="active">Свържете се</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <section class="contact-hero">
+            <div class="contact-heading">
+                <h1>Свържете се с мен</h1>
+                <p>Имате въпроси относно базите данни или този проект? Ще се радвам да ги зададете!</p>
+            </div>
+        </section>
+
+        <section class="contact-container">
+            <div class="contact-info">
+                <h2>Информация за връзка</h2>
+                <p>Чувствайте се свободни да се свържете с мен чрез някой от тези канали:</p>
+                
+                <div class="info-items">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Имейл</h3>
+                            <p>rumenstvass@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Училище</h3>
+                            <p>СПГИ "Д-р Петър Аладжов"</p>
+                            <p>гр. В. Търново, България</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Социални мрежи</h3>
+                            <div class="social-icons">
+                                <a href="#"><i class="fab fa-github"></i></a>
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container">
+                <h2>Изпратете съобщение</h2>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Вашето име</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Имейл адрес</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Тема</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Съобщение</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-submit">Изпрати</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>DBMS<span>Hub</span></h3>
+                <p>Изчерпателно ръководство за системи за управление на бази данни.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Бързи връзки</h3>
+                <ul>
+                    <li><a href="index.html">Начало</a></li>
+                    <li><a href="relational.html">Релационни БД</a></li>
+                    <li><a href="nosql.html">NoSQL БД</a></li>
+                    <li><a href="about.html">За мен</a></li>
+                    <li><a href="contact.html">Свържете се</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Социални мрежи за връзка</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 DBMS Information Hub | Създаден за дипломен проект за 12-ти клас</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
