@@ -18,5 +18,3 @@ Styles are split per page in `styles/`, behaviour in `js/`, and the logos are in
 - The LinkedIn and other social links are still `#` placeholders.
 - In `main.js`, the scroll-to-top button sets its class with `-` instead of `=` (`button.className - 'scroll-top'`), so it never gets that class. The handler meant to close the mobile menu after a link is clicked treats a list of links as a single element, which throws an error, so the menu stays open.
 - The relational and NoSQL sidebar scripts are near-copies of each other and could share one function.
-
-MIT licensed.
